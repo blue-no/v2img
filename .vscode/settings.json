@@ -1,0 +1,16 @@
+{
+  "python.analysis.indexing": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "black-formatter.args": [
+    "--preview",
+    "--line-length=80",
+    "--enable-unstable-feature",
+    "string_processing"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "python.languageServer": "Pylance",
+  "python.REPL.enableREPLSmartSend": false
+}
